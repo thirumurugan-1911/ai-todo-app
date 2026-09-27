@@ -1,0 +1,15 @@
+{
+  "name": "ai-todo-server",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.4",
+    "express": "^5.2.1"
+  },
+  "description": "AI To-Do backend (Express + SQLite)"
+}
