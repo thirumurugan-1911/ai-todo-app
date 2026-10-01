@@ -1,6 +1,11 @@
 // Small fetch wrapper. Every request goes to /api/... which Vite proxies to the backend.
+const API_URL =
+    import.meta.env.VITE_API_URL || 'http://localhost:3000'
+
+
+
 async function request(path, options = {}) {
-  const res = await fetch(`/api${path}`, {
+  const res = await fetch(`${API_URL}/api${path}`, {
     headers: { 'Content-Type': 'application/json' },
     ...options,
   })
