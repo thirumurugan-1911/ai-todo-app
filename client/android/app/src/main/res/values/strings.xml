@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">AI To-Do</string>
+    <string name="title_activity_main">AI To-Do</string>
+    <string name="package_name">com.thirumurugan.aitodo</string>
+    <string name="custom_url_scheme">com.thirumurugan.aitodo</string>
+</resources>
